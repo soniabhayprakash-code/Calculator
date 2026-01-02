@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style12.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="one">
+        <div id="one1">
+             <input type="text" id="bar" disabled />
+            <div id="bar1">
+                <button onclick="clearDisplay()" id="button1"><h2>C</h2></button>
+                <button onclick="appendValue('-')" id="button2"><h2>+/-</h2></button>
+                <button onclick="appendValue('%')" id="button3"><h2>%</h2></button>
+                <button onclick="appendValue('/')" id="button4"><h2>÷</h2></button>
+            </div>
+            <div id="bar2">
+                <button onclick="appendValue('7')" id="button5"><h2>7</h2></button>
+                <button onclick="appendValue('8')" id="button6"><h2>8</h2></button>
+                <button onclick="appendValue('9')" id="button7"><h2>9</h2></button>
+                <button onclick="appendValue('*')" id="button8"><h2>×</h2></button>
+            </div>
+            <div id="bar3">
+                <button onclick="appendValue('4')" id="button9"><h2>4</h2></button>
+                <button onclick="appendValue('5')" id="button10"><h2>5</h2></button>
+                <button onclick="appendValue('6')" id="button11"><h2>6</h2></button>
+                <button onclick="appendValue('-')" id="button12"><h2>−</h2></button>
+            </div>
+            <div id="bar4">
+                <button onclick="appendValue('1')" id="button13"><h2>1</h2></button>
+                <button onclick="appendValue('2')" id="button14"><h2>2</h2></button>
+                <button onclick="appendValue('3')" id="button15"><h2>3</h2></button>
+                <button onclick="appendValue('+')" id="button16"><h2>+</h2></button>
+            </div>
+            <div id="bar5">
+                <button onclick="appendValue('0')" id="button17"><h2>0</h2></button>
+                <button onclick="appendValue('.')" id="button18"><h2>.</h2></button>
+                <button onclick="calculate()" id="button19"><h2>=</h2></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
